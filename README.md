@@ -7,12 +7,9 @@ This is a starter template for building a SaaS application using **Next.js** wit
 ## Features
 
 - Marketing landing page (`/`) with animated Terminal element
-- Dashboard pages with CRUD operations on users/teams
-- Basic RBAC with Owner and Member roles
 - Email/password authentication with JWTs stored to cookies
 - Global middleware to protect logged-in routes
 - Local middleware to protect Server Actions or validate Zod schemas
-- Activity logging system for any user events
 
 ## Tech Stack
 
@@ -58,14 +55,6 @@ pnpm dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) in your browser to see the app in action.
-
-## Testing Payments
-
-To test Stripe payments, use the following test card details:
-
-- Card Number: `4242 4242 4242 4242`
-- Expiration: Any future date
-- CVC: Any 3-digit number
 
 ## Going to Production
 

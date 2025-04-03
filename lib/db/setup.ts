@@ -1,10 +1,6 @@
-import { exec } from 'node:child_process';
 import { promises as fs } from 'node:fs';
-import { promisify } from 'node:util';
-import readline from 'node:readline';
 import crypto from 'node:crypto';
 import path from 'node:path';
-import os from 'node:os';
 
 
 async function getPostgresURL(): Promise<string> {
